@@ -1,211 +1,108 @@
 # Awesome-Purchase-Order-Automation
 
-## Top Public Relations Management Platforms Ecosystem
+## Top Purchase Order Automation Platforms Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Media Databases, Press Outreach, Newsrooms, Coverage Tracking, Monitoring & PR Analytics*
-
+*Focused on Purchase Requisitions, Approvals, Purchase Orders, Procure-to-Pay & Spend Control*
 **Last updated: September 2026**
 
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Purchase Order Automation**. These systems streamline the creation, approval, and management of purchase orders and related procurement workflows, often as part of broader procure-to-pay or spend management suites.
 
+**Examples** include Order.co, Procurify, Precoro, Tipalti Procurement, Zip, Airbase, Ramp Procurement, Coupa Procurement, SAP Ariba Buying, and Tradogram (the category leaders).
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Public Relations Management**. These systems help PR and communications teams manage media contacts, distribute press releases, build newsrooms, track coverage, and measure campaign performance.
-
-
-
-**Examples** include Muck Rack, Cision, Prowly, Prezly, Notified, PRgloo, Agility PR Solutions, CoverageBook, Presspage, and Propel (the category leaders).
-
-
-
-**Open-source emphasis**: Full PR platforms with comprehensive journalist databases and media monitoring are almost entirely commercial. Open options are limited to experimental projects, simple CRM-style tools, and related components. This section lists the strongest available open resources and is realistic about the significant gap.
-
-
+**Open-source emphasis**: Dedicated purchase-order automation platforms are largely commercial. Strong open options exist inside full open-source ERPs — especially **Odoo Purchase** and **ERPNext Buying**. This section highlights these practical open alternatives and related components.
 
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
-
-
 ## Table of Contents
-
 - [SaaS/Hosted Platforms](#saas-products)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
-
-
 ## SaaS/Hosted Platforms
+- **[Order.co](https://www.order.co/)**  
+  Procurement and purchase order platform focused on streamlining ordering, approvals, and vendor management for growing companies.
 
-- **[Muck Rack](https://muckrack.com/)**  
+- **[Procurify](https://www.procurify.com/)**  
+  Mid-market procurement platform with strong intake-to-order workflows, budget visibility, and approval automation.
 
-  Popular PR platform combining a curated journalist database, media monitoring, outreach tools, and coverage reporting.
+- **[Precoro](https://precoro.com/)**  
+  Purchase order and procurement software popular with SMBs and mid-market teams for requests, POs, and invoice matching.
 
+- **[Tipalti Procurement](https://tipalti.com/)**  
+  Procurement capabilities within the Tipalti finance automation suite, supporting purchase processes and supplier payments.
 
+- **[Zip](https://ziphq.com/)**  
+  Intake-to-procure platform that modernizes purchasing requests, approvals, and orchestration across tools.
 
-- **[Cision](https://www.cision.com/)**  
+- **[Airbase](https://www.airbase.com/)**  
+  Spend management platform that includes procurement and purchase order automation features.
 
-  Enterprise PR and media intelligence platform with large media databases, distribution, monitoring, and analytics.
+- **[Ramp Procurement](https://ramp.com/)**  
+  Procurement and purchasing capabilities within the Ramp finance platform, focused on control and visibility.
 
+- **[Coupa Procurement](https://www.coupa.com/)**  
+  Enterprise procure-to-pay and spend management suite with robust purchase order and buying functionality.
 
+- **[SAP Ariba Buying](https://www.sap.com/products/spend-management/ariba.html)**  
+  Enterprise procurement solution for guided buying, purchase orders, and supplier collaboration within the SAP ecosystem.
 
-- **[Prowly (Semrush AI PR Toolkit)](https://www.prowly.com/)**  
-
-  PR platform (now integrated into Semrush) offering journalist databases, media outreach, and related tools.
-
-
-
-- **[Prezly](https://www.prezly.com/)**  
-
-  Modern PR platform focused on newsrooms, press release creation, journalist CRM, and outreach (typically without a built-in global media database).
-
-
-
-- **[Notified](https://www.notified.com/)**  
-
-  Communications and PR technology platform supporting media relations and related workflows.
-
-
-
-- **[PRgloo](https://www.prgloo.com/)**  
-
-  PR software for managing media contacts, campaigns, and coverage.
-
-
-
-- **[Agility PR Solutions](https://www.agilitypr.com/)**  
-
-  Media database, monitoring, and PR workflow tools for communications teams.
-
-
-
-- **[CoverageBook](https://www.coveragebook.com/)**  
-
-  Tool focused on creating professional coverage reports and PR measurement.
-
-
-
-- **[Presspage](https://www.presspage.com/)**  
-
-  Online newsroom and press release distribution platform.
-
-
-
-- **[Propel](https://www.propelsoftware.com/)** (or similar PR tools)  
-
-  PR and media relations platforms supporting outreach and campaign management.
-
-
+- **[Tradogram](https://www.tradogram.com/)**  
+  Cloud procurement and purchase order management software for organizations seeking streamlined purchasing processes.
 
 ## Open-Source GitHub Projects
+- **[Odoo Purchase](https://github.com/odoo/odoo)**  
+  Open-source purchase management module within Odoo ERP covering purchase requests, RFQs, purchase orders, receipts, and vendor management (Community edition available).
 
-- **[Experimental open PR / press-release management platforms](https://github.com/)**  
+- **[ERPNext Buying / Purchase](https://github.com/frappe/erpnext)**  
+  Fully open-source procurement module in ERPNext supporting material requests, RFQs, supplier quotations, purchase orders, and related workflows.
 
-  Community and initiative projects attempting to combine journalist targeting, distribution, coverage tracking, and analytics in an open stack.
+- **[Other open ERP purchase modules](https://github.com/)**  
+  Additional open-source ERP and business systems that include purchasing and PO functionality (e.g., components of lsFusion-based or similar ERPs).
 
+- **[Approval workflow open engines](https://github.com/)**  
+  General-purpose open workflow and approval engines that can be configured for purchase requisition and PO approval chains.
 
+- **[Document and form open builders](https://github.com/)**  
+  Tools for creating digital purchase request and PO forms with routing and notifications.
 
-- **[Media monitoring and analytics open prototypes](https://github.com/)**  
+- **[Vendor and catalog open managers](https://github.com/)**  
+  Lightweight open systems for maintaining supplier lists and simple catalogs that feed purchasing processes.
 
-  Open dashboards and tools for tracking media mentions, sentiment, and basic PR performance metrics.
+- **[Invoice matching and three-way match open experiments](https://github.com/)**  
+  Prototypes that compare POs, receipts, and invoices for basic automated matching.
 
+- **[Spend analytics open dashboards](https://github.com/)**  
+  Open BI and dashboard projects that can visualize purchasing data exported from ERPs or PO systems.
 
+- **[Integration and API open connectors](https://github.com/)**  
+  Scripts and connectors for linking open ERPs with accounting, inventory, or e-commerce systems.
 
-- **[Journalist / contact CRM open tools](https://github.com/)**  
-
-  Lightweight open CRM-style systems that can be adapted for media contact and outreach management.
-
-
-
-- **[Newsroom and press page open generators](https://github.com/)**  
-
-  Open tools and templates for building branded online newsrooms and press centers.
-
-
-
-- **[Press release authoring and distribution open helpers](https://github.com/)**  
-
-  Simple open components for creating, formatting, and sending press materials.
-
-
-
-- **[Coverage reporting open templates](https://github.com/)**  
-
-  Scripts and report generators for compiling media coverage into shareable books or dashboards.
-
-
-
-- **[Email outreach and tracking open libraries](https://github.com/)**  
-
-  Open tools for managing pitch emails, open/click tracking, and follow-ups (often combined with general email platforms).
-
-
-
-- **[Sentiment and media analysis open NLP tools](https://github.com/)**  
-
-  Open NLP and text-analysis libraries that can be applied to media coverage for basic measurement.
-
-
-
-- **[Contact list and media list open managers](https://github.com/)**  
-
-  Simple open applications for maintaining and segmenting media contact lists.
-
-
-
-- **[Integration and webhook open connectors](https://github.com/)**  
-
-  Helpers for connecting custom PR workflows to CRMs, email tools, and analytics platforms.
-
-
+- **[Self-hosted procurement portal open templates](https://github.com/)**  
+  Community templates for internal purchasing portals built on open frameworks.
 
 ### Additional Strong Open-Source Options
+- Starting with **Odoo Purchase** or **ERPNext Buying** when an organization wants full open-source control of the procure-to-pay process.
+- Extending open ERPs with custom approval workflows and catalogs for mid-sized needs.
+- Using open workflow engines on top of existing finance systems for lighter automation.
+- Accepting that advanced guided buying, extensive supplier networks, complex global compliance, and deep analytics still favor commercial platforms (Coupa, SAP Ariba, Procurify, Precoro, Zip, etc.).
+- Combining open ERP purchasing modules with commercial spend or payment tools for hybrid stacks.
 
-- Building a lightweight media CRM and newsroom with open tools when a full commercial database is not required.
-
-- Using open NLP and dashboarding tools for basic coverage analysis.
-
-- Combining open contact management with commercial media databases or monitoring services.
-
-- Accepting that comprehensive, frequently updated journalist databases, global media monitoring, advanced analytics, and enterprise support still require commercial platforms (Muck Rack, Cision, Prezly, Agility, etc.).
-
-- Focusing open-source efforts on owned media (newsrooms) and internal workflow tools rather than replacing proprietary media intelligence.
-
-
-
-**Frameworks for building custom systems**: Maintain media contacts in an open CRM → publish newsrooms with open or static-site tools → distribute releases via email or commercial wire services → track coverage with open monitoring scripts or commercial feeds → generate reports. Suitable for small teams or specialized use cases. Commercial PR platforms remain the practical choice for most agencies and corporate communications teams that need reliable media data and end-to-end workflows.
-
-
+**Frameworks for building custom systems**: Deploy Odoo or ERPNext → configure purchase request and PO workflows → set up multi-level approvals → integrate with inventory and accounting → add simple catalogs and vendor portals. This provides a complete open-source purchase order automation foundation. Commercial platforms remain the practical choice for enterprises and teams that need rapid deployment, advanced spend controls, and extensive integrations without managing an ERP.
 
 ## How to Contribute
-
 1. Fork the repo.
-
 2. Add/edit entries in `README.md` (follow existing format).
-
 3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
 4. Submit PR with a short explanation.
-
-
 
 Star the repo if you find it useful!
 
-
-
 ## Disclaimer
-
 - This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- PR platforms handle media contacts and communications data subject to privacy regulations. Media databases and monitoring services have their own terms and accuracy limitations. Open-source or self-built solutions require careful data handling and compliance. This list is not legal or communications advice.
-
-
+- Purchase order and procurement systems handle financial commitments and supplier data. Ensure proper access controls, audit trails, and compliance with internal policies and applicable regulations. Self-hosted open-source solutions require ongoing security and operational maintenance. This list is not financial or compliance advice.
 
 ---
-
-**Made for PR professionals, communications teams, and agencies who want efficient media relations.**
-
-Let's keep public relations measurable, transparent, and as open as practical.
+**Made for procurement, finance, and operations teams who want controlled and efficient purchasing.**
+Let's keep purchase order processes transparent, automated, and as open as practical.
