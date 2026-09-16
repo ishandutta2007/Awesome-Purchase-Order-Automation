@@ -84,7 +84,7 @@
   <path class="flow-line" d="M 100 220 Q 300 260 500 220 T 900 220" fill="none" stroke="url(#accent-grad)" stroke-width="3" opacity="0.6" />
 
   <!-- Left Side: Title & Subtitle -->
-  <g transform="translate(80, 110)">
+  <g transform="translate(380, 110)">
     <!-- Category Pill -->
     <rect x="0" y="-55" width="260" height="32" rx="16" fill="rgba(99, 102, 241, 0.2)" stroke="rgba(165, 180, 252, 0.4)" stroke-width="1" />
     <text x="16" y="-34" class="badge-text">⚡ AWESOME PROCUREMENT</text>
