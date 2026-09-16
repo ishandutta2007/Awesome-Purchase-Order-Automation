@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#311042" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradient -->
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1" />
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-weight: 800;
+      font-size: 48px;
+      fill: #ffffff;
+    }
+    .subtitle {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      fill: #cbd5e1;
+    }
+    .badge-text {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      fill: #a5b4fc;
+    }
+    
+    /* CSS Dynamic Animations */
+    @keyframes pulse-glow {
+      0%, 100% { opacity: 0.4; transform: scale(1); }
+      50% { opacity: 0.8; transform: scale(1.05); }
+    }
+    @keyframes float-item {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+    @keyframes dash-flow {
+      to { stroke-dashoffset: -40; }
+    }
+
+    .glowing-orb {
+      animation: pulse-glow 6s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .floating-card {
+      animation: float-item 4s ease-in-out infinite;
+    }
+    .flow-line {
+      stroke-dasharray: 8 8;
+      animation: dash-flow 2s linear infinite;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg-grad)" rx="16" />
+  <rect width="1200" height="300" fill="url(#grid)" rx="16" />
+
+  <!-- Dynamic Glowing Orbs -->
+  <circle class="glowing-orb" cx="150" cy="80" r="120" fill="#4f46e5" filter="url(#glow)" opacity="0.3" />
+  <circle class="glowing-orb" cx="1050" cy="220" r="140" fill="#c026d3" filter="url(#glow)" opacity="0.25" style="animation-delay: -3s;" />
+
+  <!-- Animated Workflow Path -->
+  <path class="flow-line" d="M 100 220 Q 300 260 500 220 T 900 220" fill="none" stroke="url(#accent-grad)" stroke-width="3" opacity="0.6" />
+
+  <!-- Left Side: Title & Subtitle -->
+  <g transform="translate(80, 110)">
+    <!-- Category Pill -->
+    <rect x="0" y="-55" width="260" height="32" rx="16" fill="rgba(99, 102, 241, 0.2)" stroke="rgba(165, 180, 252, 0.4)" stroke-width="1" />
+    <text x="16" y="-34" class="badge-text">⚡ AWESOME PROCUREMENT</text>
+
+    <!-- Main Title -->
+    <text x="0" y="20" class="title">Purchase Order Automation</text>
+    <text x="0" y="60" class="subtitle">Curated SaaS Platforms, Procurement Engines &amp; Open-Source ERP Modules</text>
+  </g>
+
+  <!-- Right Side: Graphic Illustration (PO Flow Diagram) -->
+  <g class="floating-card" transform="translate(850, 60)">
+    <!-- Card Container -->
+    <rect x="0" y="0" width="260" height="180" rx="16" fill="rgba(30, 41, 59, 0.7)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" backdrop-filter="blur(10px)" />
+    
+    <!-- Flow Nodes -->
+    <!-- Requisition -->
+    <rect x="30" y="30" width="90" height="40" rx="8" fill="#312e81" stroke="#6366f1" stroke-width="1.5" />
+    <text x="75" y="55" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">Requisition</text>
+    
+    <!-- Arrow -->
+    <path d="M 125 50 L 140 50" stroke="#a855f7" stroke-width="2" marker-end="url(#arrow)" />
+    
+    <!-- Approval -->
+    <rect x="145" y="30" width="85" height="40" rx="8" fill="#581c87" stroke="#a855f7" stroke-width="1.5" />
+    <text x="187" y="55" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">Approval</text>
+    
+    <!-- Arrow Down -->
+    <path d="M 187 75 L 187 95" stroke="#ec4899" stroke-width="2" />
+    
+    <!-- Purchase Order -->
+    <rect x="30" y="105" width="200" height="45" rx="8" fill="url(#accent-grad)" />
+    <text x="130" y="132" font-family="sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">📦 Purchase Order (PO)</text>
+  </g>
+</svg>
