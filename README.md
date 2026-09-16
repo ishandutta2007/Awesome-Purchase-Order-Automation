@@ -106,3 +106,12 @@ Star the repo if you find it useful!
 ---
 **Made for procurement, finance, and operations teams who want controlled and efficient purchasing.**
 Let's keep purchase order processes transparent, automated, and as open as practical.
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Purchase-Order-Automation&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Purchase-Order-Automation_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Purchase-Order-Automation_growth.svg">
+  </picture>
+</a>
